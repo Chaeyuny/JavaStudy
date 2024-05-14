@@ -13,6 +13,8 @@ public class Student {
     String name;
     int age;
     int grade;
+    //멤버변수(필드)는 자동으로 초기화된다
+    // int =0, boolean = false, 참조형 = null
 
 
 }
