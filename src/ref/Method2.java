@@ -4,12 +4,10 @@ public class Method2 {
     public static void main(String[] args) {
 
         //1. 이름, 나이, 성적을 주고 createStudent 메서드 호출
-        Student student1 = new Student();
+        Student student1 = createStudent("학생1", 15, 90);
         //createStudent를 통해 반환된 객체 참조값을 student1에 대입
         // -> main 내에서 이 이후로 student1을 통해 실제 객체 사용가능
-        student1 = createStudent("학생1", 15, 90);
 
-        //**1을 축약해서 작성하는 방식
         Student student2 = createStudent("학생2", 16, 80);
 
         //student1,2의 참조값을 넘김
