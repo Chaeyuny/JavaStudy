@@ -6,7 +6,6 @@ public class Rectangle {
     //속성
     int width;
     int height;
-    int area;
 
     //기능
 
